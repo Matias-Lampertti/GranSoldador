@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:left;
+    padding: auto;
+    font-size: 62.5%;
+    font-size: italic;
+    font-weight: bold;
+}
+
+main{
+    padding: 1rem;
+    background-image: linear-gradient(to bottom,rgb(34, 91, 197),rgb(85, 99, 126));
+    height: 100%;
+}
+
+li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}

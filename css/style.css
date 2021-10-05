@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:left;
+    padding: auto;
+    font-size: 62.5%;
+    font-size: italic;
+    font-weight: bold;
+}
+
+main{
+    padding: 1rem;
+    background-image: linear-gradient(to bottom,rgb(34, 91, 197),rgb(85, 99, 126));
+    height: 100%;
+}
+
+li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+
+iframe {
+    width: 800px;
+    height: 370px;
+}
+  
+header {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    display: inline center;
+    background:rgb(34, 91, 197);
+}
+
+header li{
+    background-color:rgb(203, 216, 167);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+header div nav ul li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+    list-style-type: none;
+    background-color: rgb(34, 91, 197);;
+}
+
+h1 {
+    text-align: center;
+    margin:auto;
+    padding:auto;
+    font-size:15px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    background:rgb(34, 91, 197);
+    font-weight: bolder;
+    text-decoration:underline;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@keyframes efecto{
+    0%{
+        color:rgb(0, 0, 0);
+    }
+    25%{
+        color: rgb(68, 7, 7);
+    }
+    50%{
+        color: rgb(82, 9, 9);
+    }
+    75%{
+        color:rgb(68, 7, 7);
+    }
+    100%{
+        color:rgb(0, 0, 0);
+    }
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 17.5px;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3{
+    font-size: 16px;
+    color:rgb(0, 0, 0)
+}
+
+.titulo-producto{
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 15px;
+}
+.gallery {
+    width: 60%;
+    margin: 8rem 18rem;
+    display: flex;
+    grid-template-columns: 15fr 20fr;
+    grid-template-rows: 400px 400px;
+    gap: 100px; }
+
+img {  
+    width: 180px;
+    height:260px;
+}
+
+.carousel-item{
+    position:flex;
+    text-align: center;
+}
+
+.navegacion{
+    display: flex;
+}
+
+.navegacion .menu {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    font-size: 16px;
+    width: auto;
+    display: inline-block;
+    text-align: right;
+}
+
+.navegacion .menu > li {
+    display: inline-block;
+    color: rgb(96, 96, 221);
+    font-size: 1.7rem;
+    margin: 1.85rem 2rem;
+    position: relative;
+}
+
+.navegacion .menu > li:hover > a {
+    background-color:rgb(85, 99, 126);
+    color: rgb(0, 0, 0);
+}
+
+
+footer{
+    height: auto;
+    padding: 1rem 12rem;
+    width: 100%;
+    text-align: center;
+    background:rgb(85, 99, 126); 
+}
+
+footer a{
+padding: 1px 2px;
+}
+
+footer p {
+    display:inline-table;
+    margin-bottom:auto;
+}
+
+footer div nav ul li{
+    display:flex;
+    bottom: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra img{
+    margin-top: 1rem;
+    width: 95px;
+    height: 60px;
+}
+
+.barra h1{
+    text-transform: uppercase;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        row-gap: 20px;
+        column-gap: 20px;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+}
+
+.container-fluid{
+    background-color: rgb(34, 91, 197);;
+}
+
+.centrado__navegacion{
+    display: flex;
+}
+
+.centrado__navegacion--menu{
+    padding: 0;
+    display: table-row;
+    background-color:rgb(88 102 131);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 2fr 1.6fr;
+    row-gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.parrafo-grid{
+    margin-top: 2rem;
+}

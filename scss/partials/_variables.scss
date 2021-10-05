@@ -1,0 +1,17 @@
+/* FONTS */ 
+
+/* SPACINGS */
+
+// $lista1: red, green, pato, yellow, blue
+
+// $primario: nth($lista1, 3);
+
+// $listaAnidada: (red, leon) (green, puma) (yellow, gato)
+
+// $lista3: join($lista1, $listaAnidada )
+
+// $lista4: append($lista4, (orange,pink,elefante), comma)
+
+// h1{
+//     color: $lista4;
+// }

@@ -1,0 +1,18 @@
+/* IMPORTS */ 
+
+/*GLOBALS*/
+ @import "./globals";
+
+/*PARTIALS*/
+ @import "./partials/header";
+ @import "./partials/footer";
+
+/*PAGES*/ 
+ @import "./pages/home" ;
+ @import "./partials/variables";
+
+ $color: rgb(79, 7, 162);
+
+ div .p{
+    background-color: $color;
+ }
